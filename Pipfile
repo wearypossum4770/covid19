@@ -4,11 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+Django = "*"
 djangorestframework = "*"
 cuid = "*"
 isort = "*"
-black = "*"
+Pillow = "*"
 
 [dev-packages]
 
