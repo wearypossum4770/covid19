@@ -9,6 +9,19 @@ djangorestframework = "*"
 cuid = "*"
 isort = "*"
 Pillow = "*"
+django-extensions = "*"
+PyJWT = "*"
+pytz = "*"
+gunicorn = "*"
+django-rq = "*"
+bcrypt = "*"
+django-redis = "*"
+celery = "*"
+django-rest-swagger = "*"
+Pygments = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
 
 [dev-packages]
 
@@ -17,3 +30,6 @@ python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true
+
+[packages.coverage]
+extras = [ "toml",]

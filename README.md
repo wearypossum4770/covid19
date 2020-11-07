@@ -1,3 +1,15 @@
+To Do
+ - [ ] Add geolocation to collection site
+ - [ ] Add geolocation to requesting facility
+ - [ ] MORE TESTS
+ - [ ] ROLE Based access to intergrate third party, patients, providers staff etc [Role Tutorial](https://hashedin.com/blog/configure-role-based-access-control-in-django/)
+ - [ ] audit interactions with database [Audit Package](https://django-simple-history.readthedocs.io/en/2.7.0/user_tracking.html) 
+ - [ ] Give patients teh ability to interact with site.
+ - [ ] use this turorial site [Tutorial]](https://studygyaan.com/django/how-to-signup-user-and-send-confirmation-email-in-django) 
+ - [ ] Give patients the ability to download letters using pdf [PDF CSS Tutorial](https://css-tricks.com/snippets/css/signify-pdf-bombs/)
+- [ ] Programmatically serialize rest api [tutorial](https://medium.com/aubergine-solutions/decide-serializer-class-dynamically-based-on-viewset-actions-in-django-rest-framework-drf-fb6bb1246af2)
+- [ ] Rest API with JWT [JWT Tutorial](https://medium.com/swlh/jwt-auth-with-djangorest-api-9fb32b99b33c)
+- [ ] serializer rest api the right way [API Serializer](https://medium.com/better-programming/how-to-use-drf-serializers-effectively-dc58edc73998)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
