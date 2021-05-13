@@ -1,6 +1,6 @@
 const fs = require('fs')
-const ghi = [{
-  '1': {
+const ghi = [
+  {
     
     first_name: 'George',
     last_name: 'Washington',
@@ -16,7 +16,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-61307'
   },
-  '2': {
+   {
     
     first_name: 'John',
     last_name: 'Adams',
@@ -32,7 +32,7 @@ const ghi = [{
     birth_state: 'Massachusetts',
     date_of_birth: '-59961'
   },
-  '3': {
+{
     
     first_name: 'Thomas',
     last_name: 'Jefferson',
@@ -48,7 +48,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-57239'
   },
-  '4': {
+  {
     
     first_name: 'James',
     last_name: 'Madison',
@@ -64,7 +64,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-54345'
   },
-  '5': {
+  {
     
     first_name: 'James',
     last_name: 'Monroe',
@@ -80,7 +80,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-51745'
   },
-  '6': {
+  {
     
     first_name: 'Andrew',
     last_name: 'Jackson',
@@ -96,7 +96,7 @@ const ghi = [{
     birth_state: 'South/North Carolina',
     date_of_birth: '-48502'
   },
-  '7': {
+  {
     
     first_name: 'John',
     last_name: 'Adams',
@@ -112,7 +112,7 @@ const ghi = [{
     birth_state: 'Massachusetts',
     date_of_birth: '-48384'
   },
-  '8': {
+  {
     
     first_name: 'William',
     last_name: 'Harrison',
@@ -128,7 +128,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-46344'
   },
-  '9': {
+  {
     
     first_name: 'Martin',
     last_name: 'Van Buren',
@@ -144,7 +144,7 @@ const ghi = [{
     birth_state: 'New York',
     date_of_birth: '-42758'
   },
-  '10': {
+  {
     
     first_name: 'Zachary',
     last_name: 'Taylor',
@@ -160,7 +160,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-42038'
   },
-  '11': {
+   {
     
     first_name: 'John',
     last_name: 'Tyler',
@@ -176,7 +176,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-40087'
   },
-  '12': {
+  {
     
     first_name: 'James',
     last_name: 'Buchanan',
@@ -192,7 +192,7 @@ const ghi = [{
     birth_state: 'Pennsylvania',
     date_of_birth: '-39697'
   },
-  '13': {
+   {
     
     first_name: 'James',
     last_name: 'Polk',
@@ -208,7 +208,7 @@ const ghi = [{
     birth_state: 'North Carolina',
     date_of_birth: '-38043'
   },
-  '14': {
+  {
     
     first_name: 'Millard',
     last_name: 'Fillmore',
@@ -224,7 +224,7 @@ const ghi = [{
     birth_state: 'New York',
     date_of_birth: '-36516'
   },
-  '15': {
+  {
     
     first_name: 'Franklin',
     last_name: 'Pierce',
@@ -240,7 +240,7 @@ const ghi = [{
     birth_state: 'New Hampshire',
     date_of_birth: '-34735'
   },
-  '16': {
+  {
     
     first_name: 'Andrew',
     last_name: 'Johnson',
@@ -256,7 +256,7 @@ const ghi = [{
     birth_state: 'North Carolina',
     date_of_birth: '-33238'
   },
-  '17': {
+  {
     
     first_name: 'Abraham',
     last_name: 'Lincoln',
@@ -272,7 +272,7 @@ const ghi = [{
     birth_state: 'Kentucky',
     date_of_birth: '-33193'
   },
-  '18': {
+  {
     
     first_name: 'Ulysses',
     last_name: 'Grant',
@@ -288,7 +288,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-28371'
   },
-  '19': {
+  {
     
     first_name: 'Rutherford',
     last_name: 'Hayes',
@@ -304,7 +304,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-28211'
   },
-  '20': {
+   {
     
     first_name: 'Chester',
     last_name: 'Arthur',
@@ -320,7 +320,7 @@ const ghi = [{
     birth_state: 'Vermont',
     date_of_birth: '-25653'
   },
-  '21': {
+  {
     
     first_name: 'James',
     last_name: 'Garfield',
@@ -336,7 +336,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-24878'
   },
-  '22': {
+  {
     
     first_name: 'Benjamin',
     last_name: 'Harrison',
@@ -352,7 +352,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-24238'
   },
-  '23': {
+  {
     
     first_name: 'Grover',
     last_name: 'Cleveland',
@@ -368,7 +368,7 @@ const ghi = [{
     birth_state: 'New Jersey',
     date_of_birth: '-22932'
   },
-  '24': {
+  {
     
     first_name: 'William',
     last_name: 'McKinley',
@@ -384,7 +384,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-20789'
   },
-  '25': {
+  {
     
     first_name: 'Woodrow',
     last_name: 'Wilson',
@@ -400,7 +400,7 @@ const ghi = [{
     birth_state: 'Virginia',
     date_of_birth: '-15707'
   },
-  '26': {
+  {
     
     first_name: 'William',
     last_name: 'Taft',
@@ -416,7 +416,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-15446'
   },
-  '27': {
+  {
     
     first_name: 'Theodore',
     last_name: 'Roosevelt',
@@ -432,7 +432,7 @@ const ghi = [{
     birth_state: 'New York',
     date_of_birth: '-15039'
   },
-  '28': {
+  {
     
     first_name: 'Warren',
     last_name: 'Harding',
@@ -448,7 +448,7 @@ const ghi = [{
     birth_state: 'Ohio',
     date_of_birth: '-12476'
   },
-  '29': {
+  {
     
     first_name: 'Calvin',
     last_name: 'Coolidge',
@@ -464,7 +464,7 @@ const ghi = [{
     birth_state: 'Vermont',
     date_of_birth: '-10040'
   },
-  '30': {
+  {
     
     first_name: 'Herbert',
     last_name: 'Hoover',
@@ -480,7 +480,7 @@ const ghi = [{
     birth_state: 'Iowa',
     date_of_birth: '-9273'
   },
-  '31': {
+  {
     
     first_name: 'Franklin',
     last_name: 'Roosevelt',
@@ -496,7 +496,7 @@ const ghi = [{
     birth_state: 'New York',
     date_of_birth: '-6543'
   },
-  '32': {
+  {
     
     first_name: 'Harry',
     last_name: 'Truman',
@@ -512,7 +512,7 @@ const ghi = [{
     birth_state: 'Missouri',
     date_of_birth: '-5714'
   },
-  '33': {
+  {
     
     first_name: 'Dwight',
     last_name: 'Eisenhower',
@@ -528,7 +528,7 @@ const ghi = [{
     birth_state: 'Texas',
     date_of_birth: '-3364'
   },
-  '34': {
+  {
     
     first_name: 'Lyndon',
     last_name: 'Johnson',
@@ -544,7 +544,7 @@ const ghi = [{
     birth_state: 'Texas',
     date_of_birth: '3162'
   },
-  '35': {
+  {
     
     first_name: 'Ronald',
     last_name: 'Reagan',
@@ -560,7 +560,7 @@ const ghi = [{
     birth_state: 'Illinois',
     date_of_birth: '4055'
   },
-  '36': {
+  {
     
     first_name: 'Richard',
     last_name: 'Nixon',
@@ -576,7 +576,7 @@ const ghi = [{
     birth_state: 'California',
     date_of_birth: '4758'
   },
-  '37': {
+   {
     
     first_name: 'Gerald',
     last_name: 'Ford',
@@ -592,7 +592,7 @@ const ghi = [{
     birth_state: 'Nebraska',
     date_of_birth: '4944'
   },
-  '38': {
+  {
     
     first_name: 'John',
     last_name: 'Kennedy',
@@ -608,7 +608,7 @@ const ghi = [{
     birth_state: 'Massachusetts',
     date_of_birth: '6359'
   },
-  '39': {
+   {
     
     first_name: 'George',
     last_name: 'Bush',
@@ -624,7 +624,7 @@ const ghi = [{
     birth_state: 'Massachusetts',
     date_of_birth: '8930'
   },
-  '40': {
+  {
     
     first_name: 'Jimmy',
     last_name: 'Carter',
@@ -640,7 +640,7 @@ const ghi = [{
     birth_state: 'Georgia',
     date_of_birth: '9041'
   },
-  '41': {
+  {
     
     first_name: 'George',
     last_name: 'Bush',
@@ -656,7 +656,7 @@ const ghi = [{
     birth_state: 'Connecticut',
     date_of_birth: '16989'
   },
-  '42': {
+  {
     
     first_name: 'Bill',
     last_name: 'Clinton',
@@ -672,7 +672,7 @@ const ghi = [{
     birth_state: 'Arkansas',
     date_of_birth: '17033'
   },
-  '43': {
+  {
     
     first_name: 'Barack',
     last_name: 'Obama',
@@ -688,11 +688,12 @@ const ghi = [{
     birth_state: 'Hawaii',
     date_of_birth: '22497'
   },
-  '45': {
+  {
     
     first_name: 'Donald',
     last_name: 'Trump',
     middle_name: 'John',
+    suffix:"Sr",
     get username(){return `${this.first_name}.${this.middle_name}.${this.last_name}`},
     get email(){return `${this.first_name}.${this.middle_name}.${this.last_name}@example.com`},
     password:"password123!@#",
@@ -703,7 +704,24 @@ const ghi = [{
     birth_city: 'Queens, New York City',
     birth_state: 'New York',
     date_of_birth: '1946-06-14T04:00:00.000Z'
-  }
-}]
+  },
+{
+   first_name: 'Joseph',
+    last_name: 'Biden',
+    middle_name: 'Robinette',
+    suffix:"Jr"
+    get username(){return `${this.first_name}.${this.middle_name}.${this.last_name}`},
+    get email(){return `${this.first_name}.${this.middle_name}.${this.last_name}@example.com`},
+    password:"password123!@#",
+    is_superuser:false,
+    is_staff:false,
+    is_active:true,
+    
+    birth_city: 'Scranton',
+    birth_state: 'PA',
+    date_of_birth: 'November 20, 1942'
+  	
+}  
+]
 
 fs.writeFileSync('users.json',JSON.stringify(ghi))

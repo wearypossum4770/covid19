@@ -27,7 +27,7 @@ INSTALLED_APPS = (
         "django.contrib.messages",
         "django.contrib.staticfiles",
     ]
-    + ["django_rq", "rest_framework_swagger", "rest_framework"]
+    + ["django_extensions","django_rq", "rest_framework_swagger", "rest_framework"]
     + ["users.apps.UsersConfig", "patients.apps.PatientsConfig"]
 )
 

@@ -14,7 +14,11 @@ from django.conf import settings
 
 userModel = settings.AUTH_USER_MODEL
 
-
+# Coronavirus 229E, human    HCoV-229E
+# Coronavirus disease 19 see COVID-19 virus
+# Coronavirus NL63, human
+# Coronavirus OC43, human
+# Coronavirus, SARS associated see Severe acute respiratory syndrome
 class LabResult(Model):
     class Result(TextChoices):
         POSTIVE = "POS", _("Positive")
